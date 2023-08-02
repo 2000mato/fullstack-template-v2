@@ -13,7 +13,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/',(req,res) => {
-  
+  res.send('Post request acknowledged')
+})
+
+app.put('/', (req,res) => {
+  res.send
 })
 
 
