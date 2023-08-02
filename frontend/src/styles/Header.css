@@ -1,0 +1,27 @@
+.header {
+    /* Positioning properties */
+    position: absolute;
+    top: 0;
+  
+    /* Flex properties */
+    display: flex;
+    flex-grow: 1;
+  
+    /* Size properties */
+    width: 100%;
+    height: 15%;
+  
+    /* Border properties using the border shorthand property */
+    border: 5px solid rgb(0, 64, 255);
+
+
+
+  }
+
+  .header-text {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,24 @@
+.footer {
+    /* Positioning properties */
+    position: absolute;
+    bottom: 0;
+  
+    /* Flex properties */
+    display: flex;
+    flex-grow: 3;
+  
+    /* Size properties */
+    width: 100%;
+    height: 15%;
+  
+    /* Border properties using the border shorthand property */
+    border: 5px solid rgb(7, 25, 86);
+
+  }
+  
+  .footer-text {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }

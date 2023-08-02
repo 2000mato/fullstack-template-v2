@@ -1,0 +1,47 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Element Styles */
+html {
+  /* Size properties */
+  height: 100%;
+  width: 100%;
+}
+
+/* Body Styles */
+body {
+  /* Reset properties */
+  margin: 0;
+
+  /* Flex properties */
+  display: flex;
+  place-items: center;
+
+  /* Size properties */
+  min-width: 100vh;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+
+  /* Color properties */
+  background-color: rgb(8, 112, 197);
+}
+
+/* Root Element Styles */
+#root {
+  /* Flex properties */
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
